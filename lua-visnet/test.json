@@ -1,0 +1,92 @@
+{
+    "edges": [
+        {
+            "arrows": "from",
+            "from": 1,
+            "to": "mc"
+        },
+        {
+            "arrows": "from;to",
+            "from": 1,
+            "to": "n3"
+        },
+        {
+            "from": "n3",
+            "to": "n4"
+        },
+        {
+            "from": "n3",
+            "to": "n5"
+        },
+        {
+            "from": "n3",
+            "to": "n6"
+        },
+        {
+            "from": "n3",
+            "to": "n7"
+        }
+    ],
+    "nodes": [
+        {
+            "group": "group1",
+            "id": 1,
+            "label": "testnode",
+            "title": "best node ever",
+            "value": 40
+        },
+        {
+            "group": "group1",
+            "id": "mc",
+            "label": "another node",
+            "title": "best node ever",
+            "value": 40
+        },
+        {
+            "group": "group2",
+            "id": "n3",
+            "label": "a new node",
+            "title": "From other Group",
+            "value": 40
+        },
+        {
+            "group": "group3",
+            "id": "n4",
+            "label": "node n4",
+            "value": 40
+        },
+        {
+            "group": "group3",
+            "id": "n5",
+            "label": "node n5",
+            "value": 40
+        },
+        {
+            "group": "group3",
+            "id": "n6",
+            "label": "node n6"
+        },
+        {
+            "group": "group3",
+            "id": "n7",
+            "label": "node n7"
+        }
+    ],
+    "options": {
+        "edges": {
+            "smooth": {
+                "enabled": false
+            }
+        },
+        "layout": {
+            "improvedLayout": true
+        },
+        "nodes": {
+            "borderWidth": 0,
+            "font": {
+                "color": "#fff"
+            },
+            "shape": "dot"
+        }
+    }
+}
